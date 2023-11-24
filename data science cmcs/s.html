@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Management</title>
+<style>
+body {
+background-color: #007bff;
+color: white;
+}
+
+h1 {
+text-align: center;
+}
+
+form {
+margin: 0 auto;
+width: 500px;
+}
+
+input, select {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+button {
+background-color: #fff;
+color: #007bff;
+border: 1px solid #007bff;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.form-group {
+display: flex;
+align-items: center;
+}
+
+.form-label {
+width: 30%;
+margin-right: 10px;
+}
+
+.form-control {
+width: 70%;
+}
+</style>
+</head>
+<body>
+
+<h1>Project Management</h1>
+
+<form action="#">
+
+<div class="form-group">
+<label for="project-name" class="form-label">Project Name</label>
+<input type="text" id="project-name" class="form-control">
+</div>
+
+<div class="form-group">
+<label for="assigned-to" class="form-label">Assigned To</label>
+<select id="assigned-to" class="form-control">
+<option value="Er Merry Petision">Er Merry Petision</option>
+<option value="John Doe">John Doe</option>
+<option value="Jane Doe">Jane Doe</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="start-date" class="form-label">Start Date</label>
+<input type="date" id="start-date" class="form-control">
+</div>
+
+<div class="form-group">
+<label for="end-date" class="form-label">End Date</label>
+<input type="date" id="end-date" class="form-control">
+</div>
+
+<div class="form-group">
+<label for="priority" class="form-label">Priority</label>
+<select id="priority" class="form-control">
+<option value="High">High</option>
+<option value="Average">Average</option>
+<option value="Low">Low</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="description" class="form-label">Description</label>
+<textarea id="description" class="form-control"></textarea>
+</div>
+
+<div class="form-group">
+<button type="submit">Submit</button>
+<button type="reset">Clear</button>
+</div>
+
+</form>
+
+</body>
+</html>
